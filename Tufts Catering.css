@@ -1,0 +1,153 @@
+/*css stylesheet for Tutfts Catering Webdite */
+
+body {
+font-family: 'Raleway', sans-serif;
+background-color: #464751; 
+margin: 0px;
+    
+}
+
+.header{
+width: 100%;
+top:0;
+left:0;
+right:0;
+background-color: #464751;
+}
+
+#nav.bar {
+float: right;
+margin-top: -65px;
+}
+
+.bar a{ 
+color:white;
+font-size: 18px;
+text-decoration: none;
+}
+
+.bar a:hover{
+color: #e68b37;
+}
+
+.image1 {
+    width: 100%;
+}
+
+li{
+display: inline;
+padding-left: 20px;
+padding-right: 60px;}
+
+/* content1_Logo */
+
+.content1 .full-image {
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+height: 10%;
+z-index: -1;}
+/* What is the correct size? How to make this at the very top And how to get rid of the margin for this image and sections below?*/
+
+.container_15{
+background-color: white;
+margin-top: 590px;
+}
+
+#biglogo{
+position: relative;
+top:-500px;
+left:550px;   
+}
+/* content2_about */
+
+.content2_about{
+height: 450px;}
+
+.half-half {
+background-color: white;
+color: #464751;
+font-size: 18px;
+font-weight: 400;
+}
+
+.intro {
+padding-top: 50;
+}
+
+.intro h2 {
+color: #464751;
+font-size: 24px;
+font-weight: 900;
+padding-left: 300px; /* How to make everything centered and aligned?*/
+letter-spacing: 3px;
+}
+
+.intro p {
+color: #464751;
+font-size: 18px;
+text-align: center;
+padding-left: 150px;
+}
+
+#image2{
+float: right;
+padding-right: 150px;
+padding-top: 50px;
+padding-left: 200px;
+padding-bottom: 50px;}
+
+.intro a{
+color: #e68b37;
+text-decoration: underline;
+font-size: 14px;
+padding-left: 300px;
+}
+
+.intro a:hover{
+color:white;
+text-decoration: none;
+background-color:#e68b37;
+width: 5px; /* How to make the background a certian width*/
+}
+
+/* content3_menu */
+.full-image {
+width: 100%;
+top:0;
+position: relative;
+}
+
+/* content4_SERVICE */
+
+.content4_service{
+height:450px;
+
+}
+#image4 {
+padding-top: 75px;
+padding-left: 150px;
+padding-bottom: 75px;
+padding-right: 150px;
+}
+
+#service.intro {
+float:right;
+position:relative;
+top: -400px;
+}
+
+#service p {
+color: #464751;
+font-size: 18px;
+text-align: center;
+padding-left: 750px;
+padding-right: 150px;
+}
+
+/* content5_ORDER */
+
+img .full-image {
+position: relative;
+}
