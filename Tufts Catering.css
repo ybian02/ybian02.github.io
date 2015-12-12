@@ -1,10 +1,9 @@
-/*css stylesheet for Tutfts Catering Webdite */
+/*css stylesheet for Tufts Catering Website */
 
 body {
 font-family: 'Raleway', sans-serif;
 background-color: #464751; 
-margin: 0px;
-    
+margin: 0px;   
 }
 
 .header{
@@ -41,6 +40,11 @@ padding-right: 60px;}
 
 /* content1_Logo */
 
+.content1 {
+background-image: url(images/Home Page/image1.jpg);
+background-repeat: no-repeat;
+}
+
 .content1 .full-image {
 position: fixed;
 top:0;
@@ -58,7 +62,8 @@ margin-top: 590px;
 #biglogo{
 position: relative;
 top:-500px;
-left:550px;   
+left:550px;  
+vertical-align: middle;
 }
 /* content2_about */
 
@@ -67,13 +72,16 @@ height: 450px;}
 
 .half-half {
 background-color: white;
+width: 100%;
+}
+
+.intro p{
+padding-top: 50;
 color: #464751;
 font-size: 18px;
 font-weight: 400;
-}
-
-.intro {
-padding-top: 50;
+display: inline-block;
+width: 50%;
 }
 
 .intro h2 {
@@ -84,19 +92,20 @@ padding-left: 300px; /* How to make everything centered and aligned?*/
 letter-spacing: 3px;
 }
 
+/*
 .intro p {
 color: #464751;
 font-size: 18px;
 text-align: center;
 padding-left: 150px;
-}
+} 
 
 #image2{
 float: right;
 padding-right: 150px;
 padding-top: 50px;
 padding-left: 200px;
-padding-bottom: 50px;}
+padding-bottom: 50px;} */
 
 .intro a{
 color: #e68b37;
@@ -148,6 +157,28 @@ padding-right: 150px;
 
 /* content5_ORDER */
 
-img .full-image {
+/* footer */
+.footer {
+background-color: #464751;
+height: 250px; 
+width: 100%;
 position: relative;
+top:400px;
+padding: 10px;
+}
+
+#address p {
+color:white;
+display:inline-block;
+margin: 10px;
+position: relative;
+top:-90px;
+left: 200px;
+}
+
+#TDlogo img {
+float:right;
+position: relative;
+top:-190px;
+right: 50px;
 }
