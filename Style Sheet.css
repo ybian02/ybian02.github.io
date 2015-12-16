@@ -1,0 +1,205 @@
+/* css for section pages */
+
+/* header */
+body {
+font-family: 'Raleway', sans-serif;
+margin: 0px;  
+line-height:1.5;
+}
+
+.header{
+width: 100%;
+top:0;
+left:0;
+right:0;
+background-color: #464751;
+}
+
+#nav.bar {
+float: right;
+margin-top: -65px;
+}
+
+.bar a{ 
+color:white;
+font-size: 18px;
+text-decoration: none;
+}
+
+.bar a:hover, .bar a:active {
+color: #e68b37;
+}
+
+.active li{
+color: #e68b37;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.bar li{
+display: inline;
+padding-left: 20px;
+padding-right: 60px;}
+
+
+/*Home page*/
+
+/* content1_Logo */
+
+.content1_landingpage{
+    background-image: url(images/Home Page/image1.jpg);
+    background-repeat: no-repeat;
+    position:fixed;
+    /*background-size:cover;*/
+    top:0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    }
+
+/*
+.full-image {
+    background-image: url(images/Home Page/image1.jpg);
+background-repeat: no-repeat;
+position:fixed;
+background-size:cover;
+top:0;
+left:0;
+z-index: -1;
+    width: 100%;
+}
+*/
+
+.textonimage_menu{
+    background:url(images/Home Page/image3.jpg) no-repeat; 
+    background-size: cover;
+    background-attachment: fixed; 
+    height:450px; 
+    width:100%; 
+    overflow:scroll;
+    text-align:center;  
+    z-index: 50;
+}
+
+/*
+.textonimages_order {
+    background-image: url(images/Home Page/image5.jpg); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    height:450px; 
+    width:100%; 
+    overflow:scroll;
+    text-align: center;  
+}
+*/
+
+
+/* What is the correct size? How to make this at the very top And how to get rid of the margin for this image and sections below?*/
+
+.homepagecontent{
+/*margin-top: 300px;*/
+background-color: white;
+}
+
+#biglogo {
+    text-align: center;   
+    margin-top: 150px;
+}
+
+
+.about {
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.half-half {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.intro  {
+    border: 1px solid green;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+/*content4_service*/
+.service {
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* sectionpage title image */
+
+#cover {
+    width: 100%;
+}
+
+h1.sectionpage{
+font-size: 60;
+font-weight: 900;
+letter-spacing:10;
+color:#464751;
+position: relative;
+}
+
+img.backgroundimg {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+/*
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    top:0;
+*/
+}
+
+/* sectionpage content */
+
+.content {
+padding-left: 150;
+padding-right: 150;
+padding-top:30;
+padding-bottom: 100;
+background-color: white;
+position: relative;
+top:300;
+}
+
+h3 {
+font-size: 24;
+font-weight: 700;
+color:#e68b37;
+}
+
+p.section {
+font-size: 14px;
+font-weight: 400;
+color:#464751;
+}
+
+#intextlist li{
+font-size: 14px;
+font-weight: 400;
+color:#464751;
+display: list-item;
+}
+
+
+/*Footer*/

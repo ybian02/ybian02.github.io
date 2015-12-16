@@ -61,56 +61,57 @@ margin-top: 590px;
 
 #biglogo{
     margin-left:auto;
-    margin-right: auto;
-    z-index: 50;
+    margin-right:auto;
+    vertical-align: middle;}
+/*    z-index: 50;*/
 /*
 position: relative;
 top:-500px;
 left:550px;  
 */
-vertical-align: middle;
-}
-/* content2_about */
 
-.content2_about{
-height: 450px;}
+/* content2_about */
 
 .half-half {
 background-color: white;
-width: 100%;
-}
+height: 450px;}
 
-.intro p{
-padding-top: 50;
-color: #464751;
-font-size: 18px;
-font-weight: 400;
-display: inline-block;
-width: 50%;
+.intro #about {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
 }
-
-.intro h2 {
-color: #464751;
-font-size: 24px;
-font-weight: 900;
-padding-left: 300px; /* How to make everything centered and aligned?*/
-letter-spacing: 3px;
-}
-
-/*
-.intro p {
-color: #464751;
-font-size: 18px;
-text-align: center;
-padding-left: 150px;
-} 
 
 #image2{
 float: right;
 padding-right: 150px;
 padding-top: 50px;
 padding-left: 200px;
-padding-bottom: 50px;} */
+padding-bottom: 50px;} 
+
+
+.intro h2 {
+color: #464751;
+font-size: 24px;
+font-weight: 900;
+letter-spacing: 3px;
+}
+
+.intro p {
+color: #464751;
+font-size: 18px;
+text-align: center;
+} 
+
+/*
+#about.intro h2{
+    padding-left: 300px; 
+}
+
+#about.intro p{
+padding-left: 150px;
+}
+*/
 
 .intro a{
 color: #e68b37;
@@ -127,19 +128,19 @@ width: 5px; /* How to make the background a certian width*/
 }
 
 /* content3_menu */
+/*
 .full-image {
 width: 100%;
 top:0;
 position: relative;
 }
+*/
 
 /* content4_SERVICE */
 
-.content4_service{
-height:450px;
 
-}
 #image4 {
+float: left;
 padding-top: 75px;
 padding-left: 150px;
 padding-bottom: 75px;
@@ -147,10 +148,11 @@ padding-right: 150px;
 }
 
 #service.intro {
+display: block;
 float:right;
-position:relative;
 top: -400px;
 }
+/*
 
 #service p {
 color: #464751;
@@ -159,6 +161,7 @@ text-align: center;
 padding-left: 750px;
 padding-right: 150px;
 }
+*/
 
 /* content5_ORDER */
 
