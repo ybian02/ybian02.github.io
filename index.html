@@ -1,5 +1,6 @@
 <!-- Homepage for Tufts Catering Website _ 15 colom 1200 grid system -->
 <html>
+    <div id="wrapper">
     <head> 
         <title> Tufts Catering </title>
         <link rel="stylesheet" href="Style%20Sheet.css">
@@ -24,7 +25,7 @@
   <!-- content1 -->      
     <div class="content1_landingpage">
   
-                <image id="cover" src="images/Home Page/image1.jpg"/> 
+      <image id="cover" src="images/Home Page/image1.jpg"/> 
 
     </div> <!-- content1 -->
  
@@ -37,13 +38,13 @@
  <!-- content2 ABOUT --> 
 <div class="homepagecontent"> 
     <div class="about">
-            <div class="half-half"> 
+            <div class="image_about_homepage"> 
               <image src="images/Home Page/image2.png" width="328" height="328"/> 
             </div>  
-            <div class="intro" id="about">
+            <div class="text_about_homepage">
                 <h2> ABOUT </h2>
                 <p > Tufts Catering serves the Tufts community on the Medford/Somerville campus. At Tufts Catering, your success is our priority. With great chefs, delicious food, and service that goes above and beyond, we deliver quality every single time. </p>
-                <a id="hometosection" href="about.html"> LEARN MORE </a>
+                <a class="hometosection" href="about.html"> LEARN MORE </a>
             </div>  
     </div>
  <!-- content2_about-->   
@@ -58,47 +59,53 @@
         <div class="textonimage_menu">
 <!--            <image id="cover" src="images/Home Page/image3.jpg"/> -->
             <h2> MENU </h2> 
-            <a id="hometosection" href="menu.html"> EXPLORE OPTIONS </a>
+            <a class="hometosection" href="menu.html"> EXPLORE OPTIONS </a>
         </div>
 
 
 <!-- content4 SERVICE-->    
     <div class="service">
-        <div class="intro">
-            <image src="images/Home Page/image4.jpg"/ width="394" height="262"/>
-
-         <div class="half-half">
+        <div class="image_service_homepage">
+            <image src="images/Home Page/image4.jpg"/ height="320"/>
+        </div>
+         <div class="text_service_homepage">
             <h2> SERVICE </h2>
             <p > We have the flexibility to work with any budget and address every need.We offer three levels of standard service to meet your budget and event needs. Our menus are designed for specific levels of service. </p>
-            <a id="hometosection" href="service.html"> LEARN MORE </a>
+            <div class="hometosection" >  <a href="service.html"> LEARN MORE </a>
+             </div>
+             </div>
         </div>
-        </div>
-    </div>
+
 <!-- content5 ORDER--> 
 
         <div class="textonimage_order">
             <h2> ORDER </h2> 
-            <a id="hometosection" href="order.html"> EXPLORE OPTIONS </a>
+            <a class="hometosection" href="order.html"> EXPLORE OPTIONS </a>
         </div>
+    
+    </div> <!-- homepagecontent -->
 
-
- </div> <!-- class="homepagecontent" --> 
     
 <!-- footer -->
-        
+        <footer>      
     <div class="footer"> 
-    <div id="TClogo">
-         <image src="images/logos/Logo.png" width="80" height="80" />
-    <div id="address">
-        <p> 89 Curtis Street <br>
-            3rd floor <br>
-            Somerville, MA 02144 <br>
-            617-627-3411
-        </p>
-    <div id="TDlogo">
-        <image src="images/logos/TD-Logo.png" width="80" height="80" />
-    </div>
-    </div>
-    </div> 
-    </div>
+        <div class="TClogo">
+             <image src="images/logos/Logo.png" width="80" height="80" />
+        </div>
+           
+        <div class="address">
+            <p class="footer"> 89 Curtis Street <br>
+                        3rd floor <br>
+                        Somerville, MA 02144 <br>
+                        617-627-3411
+            </p>
+        </div>
+                   
+        <div class="TDlogo">
+                <a href="http://dining.tufts.edu/"> <image src="images/logos/TD-Logo.png" width="80" height="80" /> </a>
+        </div>
+<!--        <br style="clear: left;" />-->
+        </div> 
+    </footer>
+ </div> <!-- id="wapper" --> 
 </body>

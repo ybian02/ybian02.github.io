@@ -7,6 +7,11 @@ margin: 0px;
 line-height:1.5;
 }
 
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
 .header{
 width: 100%;
 top:0;
@@ -34,10 +39,6 @@ color: #e68b37;
 color: #e68b37;
 }
 
-.image1 {
-    width: 100%;
-}
-
 .bar li{
 display: inline;
 padding-left: 20px;
@@ -59,18 +60,6 @@ padding-right: 60px;}
     width: 100%;
     }
 
-/*
-.full-image {
-    background-image: url(images/Home Page/image1.jpg);
-background-repeat: no-repeat;
-position:fixed;
-background-size:cover;
-top:0;
-left:0;
-z-index: -1;
-    width: 100%;
-}
-*/
 
 .textonimage_menu{
     background:url(images/Home Page/image3.jpg) no-repeat; 
@@ -80,7 +69,6 @@ z-index: -1;
     width:100%; 
     overflow:scroll;
     text-align:center;  
-    z-index: 50;
 }
 
 /*
@@ -95,9 +83,6 @@ z-index: -1;
 }
 */
 
-
-/* What is the correct size? How to make this at the very top And how to get rid of the margin for this image and sections below?*/
-
 .homepagecontent{
 /*margin-top: 300px;*/
 background-color: white;
@@ -106,32 +91,65 @@ background-color: white;
 #biglogo {
     text-align: center;   
     margin-top: 150px;
+    margin-bottom: 50px;
 }
 
+/*Homepage Stlyling*/
+
+h2 {
+color:#464751;
+letter-spacing: 2px;
+font-weight: 900;}
+
+p {
+    color:#464751;
+}
+
+.hometosection a {
+    color:#e68b37;
+    text-decoration: underline;
+}
+
+
+.hometosection a:hover {
+    color:white;
+    background-color: #e68b37;
+}
+
+
+.hometosection a:visited {
+    color:#e68b37;
+    text-decoration: underline;
+}
+/*content1_about*/
 
 .about {
     width: 100%;
     border: 1px solid black;
     overflow: hidden; /* will contain if #first is longer than #second */
+/*
     margin-top: 50px;
     margin-bottom: 50px;
+*/
 }
 
-.half-half {
+.image_about_homepage {
     width: 300px;
-    float:left; /* add this */
+    float:right; /* add this */
     border: 1px solid red;
     margin-top: 60px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
 }
 
-.intro  {
+.text_about_homepage {
     border: 1px solid green;
-    overflow: hidden; /* if you don't want #second to wrap below #first */
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 60px;
+    overflow: hidden; 
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
 }
 
 /*content4_service*/
@@ -139,10 +157,95 @@ background-color: white;
     width: 100%;
     border: 1px solid black;
     overflow: hidden; /* will contain if #first is longer than #second */
+/*
     margin-top: 50px;
     margin-bottom: 50px;
+*/
 }
 
+.text_service_homepage {
+    text-align: center;
+    border: 1px solid red;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 100px;
+    overflow: hidden; 
+}
+
+.image_service_homepage {
+    float:left; /* add this */
+    border: 1px solid green;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    
+}
+
+
+
+/*content5_order*/
+
+.textonimage_order{
+    background:url(images/Home Page/image5.jpg) no-repeat; 
+    background-size: cover;
+    background-attachment: fixed; 
+    height:450px; 
+    width:100%; 
+    overflow:scroll;
+    text-align:center;  
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    overflow: hidden; /* will contain if #first is longer than #second */
+    background-color:  #464751;
+    left:0;
+    bottom:0;
+    padding-bottom: 25px;
+    position: absolute;
+}
+
+.TClogo {
+/*    border: 1px solid green;*/
+    display: inline-block;
+/*    float: left;*/
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.address {
+/*    border: 1px solid red;*/
+    display: inline-block;
+/*    float: left;*/
+/*    position:absolute; left:66.6%; width: 33.3%;*/
+    text-align: left;
+    width: 80%;
+    margin-left: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.TDlogo{
+/*    border: 1px solid purple;*/
+    display: inline-block;
+/*    float: left;*/
+/*     position:absolute; left:33.3%; width: 33.3%;*/
+    position: relative;
+    
+}
+
+.footer p {
+    color: white;
+    line-height: 1.2;
+    
+}
 
 /* sectionpage title image */
 
@@ -171,6 +274,22 @@ img.backgroundimg {
 }
 
 /* sectionpage content */
+
+.backgroundimg{
+    background-image: url(images/About/about_title_image.jpg);
+    background-repeat: no-repeat;
+    position:fixed;
+    /*background-size:cover;*/
+    top:0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    }
+
+.sectionpage{
+    text-align: center;   
+    margin-top: 200px;
+}
 
 .content {
 padding-left: 150;
@@ -201,5 +320,3 @@ color:#464751;
 display: list-item;
 }
 
-
-/*Footer*/
