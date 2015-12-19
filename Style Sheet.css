@@ -8,8 +8,9 @@ line-height:1.5;
 }
 
 #wrapper {
-	min-height:100%;
-	position:relative;
+min-height: 100%;
+height: auto;
+position: relative;
 }
 
 .header{
@@ -31,7 +32,7 @@ font-size: 18px;
 text-decoration: none;
 }
 
-.bar a:hover, .bar a:active {
+ .bar a:hover, .bar a:active {
 color: #e68b37;
 }
 
@@ -60,17 +61,42 @@ padding-right: 60px;}
     width: 100%;
     }
 
-
-.textonimage_menu{
-    background:url(images/Home Page/image3.jpg) no-repeat; 
-    background-size: cover;
-    background-attachment: fixed; 
+.full-image{
+    width: 100%;
+    overflow: hidden;
     height:450px; 
-    width:100%; 
-    overflow:scroll;
-    text-align:center;  
+    position: relative;
 }
 
+.textonimage_image
+{
+/*
+    background-image:url(images/Home Page/image3.jpg) no-repeat; 
+    background-size: cover;
+*/
+    display: inline-block;
+    width:100%; 
+    overflow:scroll;
+/*    text-align:center;  */
+    position: relative;
+}
+.textonimage_white{
+    display: inline-block;
+    position:relative;
+    top: -300px;
+    margin-left: 550px;
+    text-align: center;
+    
+    }
+.textonimage_white h2{
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: white;}
+
+.textonimage_white a{
+    color: white;}
+.textonimage_white a:hover{
+    font-weight: 700;}
 /*
 .textonimages_order {
     background-image: url(images/Home Page/image5.jpg); 
@@ -98,34 +124,31 @@ background-color: white;
 
 h2 {
 color:#464751;
-letter-spacing: 2px;
+letter-spacing: 3px;
 font-weight: 900;}
 
 p {
     color:#464751;
 }
 
-.hometosection a {
+a.hometosection{
+    font-weight: 400;
+    letter-spacing: 0.8px;
     color:#e68b37;
     text-decoration: underline;
 }
 
 
-.hometosection a:hover {
-    color:white;
-    background-color: #e68b37;
-}
-
-
-.hometosection a:visited {
-    color:#e68b37;
+a.hometosection:hover {
+    font-weight: 700;
     text-decoration: underline;
 }
+
 /*content1_about*/
 
 .about {
     width: 100%;
-    border: 1px solid black;
+/*    border: 1px solid black;*/
     overflow: hidden; /* will contain if #first is longer than #second */
 /*
     margin-top: 50px;
@@ -136,15 +159,15 @@ p {
 .image_about_homepage {
     width: 300px;
     float:right; /* add this */
-    border: 1px solid red;
-    margin-top: 60px;
+/*    border: 1px solid red;*/
+    margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .text_about_homepage {
-    border: 1px solid green;
+/*    border: 1px solid green;*/
     overflow: hidden; 
     text-align: center;
     margin-left: 100px;
@@ -155,7 +178,7 @@ p {
 /*content4_service*/
 .service {
     width: 100%;
-    border: 1px solid black;
+/*    border: 1px solid black;*/
     overflow: hidden; /* will contain if #first is longer than #second */
 /*
     margin-top: 50px;
@@ -165,7 +188,7 @@ p {
 
 .text_service_homepage {
     text-align: center;
-    border: 1px solid red;
+/*    border: 1px solid red;*/
     margin-left: 100px;
     margin-right: 150px;
     margin-top: 100px;
@@ -174,12 +197,12 @@ p {
 
 .image_service_homepage {
     float:left; /* add this */
-    border: 1px solid green;
+/*    border: 1px solid green;*/
     width: 500px;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     
 }
 
@@ -213,7 +236,7 @@ p {
     display: inline-block;
 /*    float: left;*/
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 50px;
     margin-left: 20px;
     position: relative;
@@ -227,7 +250,7 @@ p {
 /*    position:absolute; left:66.6%; width: 33.3%;*/
     text-align: left;
     width: 80%;
-    margin-left: 20px;
+    margin-left: 40px;
     position: relative;
     top: 40px;
 }
@@ -257,9 +280,24 @@ h1.sectionpage{
 font-size: 60;
 font-weight: 900;
 letter-spacing:10;
-color:#464751;
+color:white;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 200px;
 position: relative;
 }
+
+h1.sectionpage_graytitle {
+font-size: 60;
+font-weight: 900;
+letter-spacing:10;
+position: relative;
+color: #464751;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 200px;
+}
+
 
 img.backgroundimg {
     display:block;
@@ -295,10 +333,9 @@ img.backgroundimg {
 padding-left: 150;
 padding-right: 150;
 padding-top:30;
-padding-bottom: 100;
+padding-bottom: 250;
 background-color: white;
-position: relative;
-top:300;
+/*top:300;*/
 }
 
 h3 {
@@ -313,6 +350,16 @@ font-weight: 400;
 color:#464751;
 }
 
+a.linkintext{
+color: #e68b37;
+text-decoration: none;
+}
+
+a.linkintext:hover{
+color: #e68b37;
+text-decoration: underline;
+}
+
 #intextlist li{
 font-size: 14px;
 font-weight: 400;
@@ -320,3 +367,86 @@ color:#464751;
 display: list-item;
 }
 
+#intextlist_table li{
+font-size: 14px;
+font-weight: 400;
+color:#464751;
+line-height:2;
+list-style-type:none;
+}
+
+/*Service and Order page layout*/
+
+.servicetypes{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.intextlist_left {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    float: left;
+    padding: 0;
+}
+
+.intextimage_right {
+    display: inline-block;
+    width: 40%;
+    text-align: center; 
+}
+
+.intextimage_right img {
+    padding-top: 80px;
+}
+/*Service Page Options Bar */
+
+.options {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.option1 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.option2 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;    
+ }
+
+.option3 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+a.options_sectionpage{
+    color:#464751;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.8;
+}
+
+.options_sectionpage:hover{
+    color: #e68b37;
+}
+
+a.options_line{
+    width: 100%;
+}
+.options_line:hover {
+    content: url('images/Service Page/Selector---active.jpg');
+    padding: 0;
+    width:100%;
+    text-align: center;}
+
+/*Menu Page*/
+
+#container {
+    height: 800px;}

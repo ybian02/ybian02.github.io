@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="Style%20Sheet.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,900' rel='stylesheet' type='text/css'>
     </head>
-<body>
+
+    <body>
     <div class="header"> 
         <div id="horizontal logo"> 
         <a href="index.html">  <image src="images/logos/Horizontal-Logo.png" alt="Tufts Catering" width="190" height="75" /> </a>
@@ -43,7 +44,7 @@
             </div>  
             <div class="text_about_homepage">
                 <h2> ABOUT </h2>
-                <p > Tufts Catering serves the Tufts community on the Medford/Somerville campus. At Tufts Catering, your success is our priority. With great chefs, delicious food, and service that goes above and beyond, we deliver quality every single time. </p>
+                <p > Tufts Catering serves the Tufts community on the <a class="linkintext" href="http://campusmaps.tufts.edu/medford/"> Medford/Somerville campus</a>. At Tufts Catering, your success is our priority. With great chefs, delicious food, and service that goes above and beyond, we deliver quality every single time. </p>
                 <a class="hometosection" href="about.html"> LEARN MORE </a>
             </div>  
     </div>
@@ -51,18 +52,16 @@
 
 <!-- content3 MENU -->
 
-<!--
+
         <div class="full-image">
-            <image src="images/Home Page/image3.jpg"/>
+            <div class="textonimage_image">
+                    <image id="cover" src="images/Home Page/image3.jpg"/> 
+            </div>
+            <div class="textonimage_white">
+                <h2> MENU </h2> 
+                <a href="menu.html"> VIEW FULL MENU</a>  
+            </div>
         </div>
--->
-        <div class="textonimage_menu">
-<!--            <image id="cover" src="images/Home Page/image3.jpg"/> -->
-            <h2> MENU </h2> 
-            <a class="hometosection" href="menu.html"> EXPLORE OPTIONS </a>
-        </div>
-
-
 <!-- content4 SERVICE-->    
     <div class="service">
         <div class="image_service_homepage">
@@ -71,23 +70,25 @@
          <div class="text_service_homepage">
             <h2> SERVICE </h2>
             <p > We have the flexibility to work with any budget and address every need.We offer three levels of standard service to meet your budget and event needs. Our menus are designed for specific levels of service. </p>
-            <div class="hometosection" >  <a href="service.html"> LEARN MORE </a>
-             </div>
-             </div>
-        </div>
+            <a class="hometosection" href="service.html"> EXPLORE SERVICE TYPES </a>
+         </div>
+    </div>
+        
 
 <!-- content5 ORDER--> 
-
-        <div class="textonimage_order">
-            <h2> ORDER </h2> 
-            <a class="hometosection" href="order.html"> EXPLORE OPTIONS </a>
+        <div class="full-image">
+            <div class="textonimage_image">
+                <image id="cover" src="images/Home Page/image5.jpg"/> 
+            </div>
+            <div class="textonimage_white">
+            <h2 > ORDER </h2> 
+            <a href="order.html"> EXPLORE OPTIONS </a>
         </div>
-    
-    </div> <!-- homepagecontent -->
-
+        </div>
+   </div> <!-- homepagecontent>
     
 <!-- footer -->
-        <footer>      
+    <footer>      
     <div class="footer"> 
         <div class="TClogo">
              <image src="images/logos/Logo.png" width="80" height="80" />
@@ -107,5 +108,8 @@
 <!--        <br style="clear: left;" />-->
         </div> 
     </footer>
- </div> <!-- id="wapper" --> 
-</body>
+
+    </body>
+  </div> <!-- wrapper --> 
+        
+</html>
